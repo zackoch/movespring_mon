@@ -91,7 +91,7 @@ def stats_parser(data):
         unit_type = i["member"]["unitType"]
         leaderboard_id = i["id"]
         distance_average = i["distanceAverage"]
-        distance_otal = i["distanceTotal"]
+        distance_total = i["distanceTotal"]
         minutes_average = i["minutesAverage"]
         minutes_otal = i["minutesTotal"]
         rank = i["rank"]
@@ -106,7 +106,7 @@ def stats_parser(data):
             {avatar}
             {leaderboard_id}
             {distance_average}
-            {distance_otal}
+            {distance_total}
             {minutes_average}
             {minutes_otal}
             {rank}
